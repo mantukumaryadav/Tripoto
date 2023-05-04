@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Tripoto: Share and Discover Travel Stories, Community, Tourism Guides,
+      Hotels &amp; Holidays
+    </title>
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* First Part */
+
+      #nav {
+        /* border: 2px solid red; */
+        /* height: 400px; */
+        padding-bottom: 90px;
+        background-image: url("https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg");
+        background-repeat: no-repeat;
+      }
+
+      .tripicon:hover {
+        cursor: pointer;
+      }
+
+      .tripicon {
+        display: flex;
+        padding-top: 15px;
+        margin-left: 15px;
+      }
+
+      #tabs {
+        display: flex;
+        /* width: 500px; */
+        gap: 30px;
+        margin-top: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 800px;
+      }
+
+      #in {
+        width: 800px;
+        margin: auto;
+        margin-top: 30px;
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+      }
+
+      #in h1 {
+        font-size: 40px;
+      }
+
+      #in input {
+        width: 80%;
+        padding: 15px 20px 15px 25px;
+        border-radius: 10px;
+        color: grey;
+      }
+
+      .insidesearch {
+        display: flex;
+        justify-content: center;
+      }
+
+      .search {
+        margin-left: -30px;
+        width: 25px;
+      }
+
+      /* Second Part */
+
+      #main {
+        /* border: 2px solid red; */
+        width: 85%;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        gap: 15px;
+        /* padding: 5%; */
+        /* text-align: center; */
+      }
+
+      #main1 {
+        /* border: 1px solid green; */
+        width: 25%;
+        /* padding-right: 10px; */
+        display: flex;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 5px;
+      }
+
+      #submain1 {
+        width: 37%;
+      }
+      #submain1 > img {
+        width: 100%;
+        border-radius: 5px;
+      }
+
+      #main2 {
+        width: 63%;
+        margin-left: 5px;
+      }
+
+      #main2 > h1 {
+        font-size: medium;
+      }
+
+      #main2 > p {
+        font-size: small;
+      }
+
+      /* Third Part */
+
+      .thirdpart {
+        margin-left: 110px;
+        margin-top: 35px;
+      }
+
+      #spot {
+        /* border: 1px solid red; */
+        width: 85%;
+        margin: auto;
+        display: flex;
+        gap: 15px;
+      }
+
+      #subspot {
+        /* border: 1px solid green; */
+        width: 25%;
+        /* padding: 100px;
+        padding-bottom: 50px; */
+        display: block;
+      }
+
+      #subspot > img {
+        width: 100%;
+        /* margin-top: -100px;
+        margin-left: -100px; */
+        border-radius: 10px;
+      }
+
+      #subspot > h1 {
+        color: #ff6600;
+        font-weight: bold;
+        font-size: small;
+      }
+
+      #subspot > h2 {
+        font-size: 18px;
+      }
+
+      /* Fourth Part */
+
+      #fourp {
+        width: 85%;
+        margin: auto;
+      }
+
+      #fourp > img {
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      a {
+        color: #67b6e4;
+      }
+
+      #tabs > div > a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      /* Fifth Part same as third part */
+
+      /* Sixth Part same as fifth part */
+
+      /* Seventh Part same as third part */
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- First Part -->
+
+    <div id="nav">
+      <div class="tripicon">
+        <img
+          src="https://cdn1.tripoto.com/assets/2.9/img/logo/tripoto.svg"
+          alt="tripoto icon"
+        />
+
+        <!-- 5 options part -->
+        <div id="tabs">
+          <div>Inspiration ▼</div>
+          <div><a href="https://www.tripoto.com/community">Forum</a></div>
+          <div><a href="packages.html">Packages</a></div>
+          <div>Publish Trip ▼</div>
+          <div><a href="https://www.tripoto.com/">Sign in</a></div>
+        </div>
+      </div>
+
+      <!-- Navbar front center part -->
+      <div id="in">
+        <h1>India's Largest Community of Travellers</h1>
+        <div class="insidesearch">
+          <input
+            type="text"
+            placeholder="Search for itineraries, destinations, hotels or activities"
+          />
+          <img
+            class="search"
+            src="data:image/svg+xml,%3csvg viewBox='0 0 34 32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='16px' width='17px'%3e %3cpath style='fill:%23506066' d='M20.571 14.857q0-3.304-2.348-5.652t-5.652-2.348-5.652 2.348-2.348 5.652 2.348 5.652 5.652 2.348 5.652-2.348 2.348-5.652zM29.714 29.714q0 0.929-0.679 1.607t-1.607 0.679q-0.964 0-1.607-0.679l-6.125-6.107q-3.196 2.214-7.125 2.214-2.554 0-4.884-0.991t-4.018-2.679-2.679-4.018-0.991-4.884 0.991-4.884 2.679-4.018 4.018-2.679 4.884-0.991 4.884 0.991 4.018 2.679 2.679 4.018 0.991 4.884q0 3.929-2.214 7.125l6.125 6.125q0.661 0.661 0.661 1.607z'%3e %3c/path%3e %3c/svg%3e"
+            alt="search box"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Part (4 banners) -->
+
+    <div id="main">
+      <div id="main1">
+        <div id="submain1">
+          <img
+            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwM7qw8V-EcrlJykxB6QjNpDLfvK7YXCxsNkqwi198bfeVwwUO"
+            alt="img"
+          />
+        </div>
+
+        <div id="main2">
+          <h1>Mindful Retreats</h1>
+          <p>Book our offbeat, all-inclusive trips</p>
+        </div>
+      </div>
+
+      <div id="main1">
+        <div id="submain1">
+          <img
+            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwM7qw8V-EcrlJykxB6QjNpDLfvK7YXCxsNkqwi198bfeVwwUO"
+            alt="img"
+          />
+        </div>
+
+        <div id="main2">
+          <h1>Online Experiences</h1>
+          <p>Learn with Tripoto on the go</p>
+        </div>
+      </div>
+
+      <div id="main1">
+        <div id="submain1">
+          <img
+            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwM7qw8V-EcrlJykxB6QjNpDLfvK7YXCxsNkqwi198bfeVwwUO"
+            alt="img"
+          />
+        </div>
+
+        <div id="main2">
+          <h1>Tripoto Family</h1>
+          <p>Join our community of content creators</p>
+        </div>
+      </div>
+
+      <div id="main1">
+        <div id="submain1">
+          <img
+            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwM7qw8V-EcrlJykxB6QjNpDLfvK7YXCxsNkqwi198bfeVwwUO"
+            alt="img"
+          />
+        </div>
+
+        <div id="main2">
+          <h1>Choose Your Language</h1>
+          <p>Read Tripoto in Hindi and Gujrati</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Part -->
+
+    <h1 class="thirdpart">In the Spotlight: Partnerhsips</h1>
+
+    <div id="spot">
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1657611052_rohan_chum2.jpg"
+          alt="img"
+        />
+        <h1>GOSTOPS</h1>
+        <h2>
+          Trek Through Himalayan Forests & Waterfalls under Rs 8,000 With
+          GoEXPERIENCES By GoSTOPS!
+        </h2>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1656576649_1653662762_image7.jpg"
+          alt="img"
+        />
+        <h1>SINGAPORE TOURISM BOARD</h1>
+        <h2>
+          Visit These 7 Chic Bars In Singapore If You're In The Mood To Live Up
+          The Night!
+        </h2>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1657611052_rohan_chum2.jpg"
+          alt="img"
+        />
+        <h1>MG</h1>
+        <h2>
+          Unravel The Secrets Of Northeast India With Chum And Rohan In
+          'Uncharted Trails'
+        </h2>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/1516992/Image/1656576649_1653662762_image7.jpg"
+          alt="img"
+        />
+        <h1>SAUDI TOURISM AUTHORITY</h1>
+        <h2>
+          A 7-Day Backpacker's Itinerary For Exploring Saudi In Under Rs 35,000
+        </h2>
+      </div>
+    </div>
+
+    <!-- Fourth Part -->
+
+    <div id="fourp">
+      <img
+        src="https://cdn1.tripoto.com/media/transfer/img/2224454/Image/1656479622_header_web2.gif"
+        alt="img"
+      />
+    </div>
+
+    <!-- Fifth Part -->
+
+    <h1 class="thirdpart">
+      Find Best Places to Visit in India in July & August
+    </h1>
+
+    <div id="spot">
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331106_img_0316.jpg"
+          alt="img"
+        />
+        <h2>Explore Tripto Destination Of The Month: Coorg</h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/sakshinahar2943456"
+            >Sakshi Nahar Dhariwal</a
+          >
+        </p>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653588715_1467621115_beautiful_mountains_in.jpg"
+          alt="img"
+        />
+        <h2>Explore Tripto Destination Of The Month: Coorg</h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/sakshinahar2943456"
+            >Tanisha Mundra</a
+          >
+        </p>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331106_img_0316.jpg"
+          alt="img"
+        />
+        <h2>Explore Tripto Destination Of The Month: Coorg</h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/sakshinahar2943456"
+            >Le Voyageur</a
+          >
+        </p>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653588715_1467621115_beautiful_mountains_in.jpg"
+          alt="img"
+        />
+        <h2>Explore Tripto Destination Of The Month: Coorg</h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/sakshinahar2943456"
+            >Adete Dahiya</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- Sixth Part -->
+
+    <h1 class="thirdpart">Plan International Trips for July & August</h1>
+
+    <div id="spot">
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1651046452_1545558276_erdap_2129568_1280.jpg"
+          alt="img"
+        />
+        <h2>You can Travel To Serbia From India Without A Visa</h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/sakshinahar2943456"
+            >Ayushee Chaudhary</a
+          >
+        </p>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653586553_1577195238_lrm_export_76214465022174_20190808_031850948.jpeg"
+          alt="img"
+        />
+        <h2>Czech: One of Europe's Most Affordable Countries</h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/sakshinahar2943456"
+            >Saumiabee</a
+          >
+        </p>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653586302_1647432380_image5.jpg"
+          alt="img"
+        />
+        <h2>8 Days, 40K INR: A Guide To Spain Is All That You Need</h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/sakshinahar2943456"
+            >Visit Spain</a
+          >
+        </p>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1653585376_journaway_rundreisen_gedspqfyzte_unsplash.jpg"
+          alt="img"
+        />
+        <h2>Here's All You Need To Know About Travelling To Oman</h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/sakshinahar2943456"
+            >Khyati Maloo</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- Seventh Part -->
+
+    <h1 class="thirdpart">
+      Check Out Best Hotels And Properties for Every Type of Traveller
+    </h1>
+
+    <div id="spot">
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/gen/2215463/Image/1656332418_1654396464_coorg.avif"
+          alt="img"
+        />
+        <h1>LUXURY STAYS</h1>
+        <h2>
+          Best Coorg Resorts That You <br />
+          Can't Skip
+        </h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/sakshinahar2943456"
+            >Sakshi Nahar Dhariwal</a
+          >
+        </p>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332366_1629195674_photo_1506461883276_594a12b11cf3.jpeg"
+          alt="img"
+        />
+        <h1>UNIQUE STAYS</h1>
+        <h2>Properties Across India Perfect For The Monsoons</h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/kadambari6484440"
+            >Kadambari Bhatte (curlytravelmess)</a
+          >
+        </p>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656332895_1655125606_1655123371_1654797038_cq5dam_web_756_756.jpeg"
+          alt="img"
+        />
+        <h1>BUDGET STAYS</h1>
+        <h2>Ultimate List of Government Guest Houses Under 3K INR</h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/abanerjee">Arko Banerjee</a>
+        </p>
+      </div>
+
+      <div id="subspot">
+        <img
+          src="https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656333075_1655949685_1628847164_1627983039_696b9be9_d0ff_4240_a0fa_2e8e89f15daa.jpg"
+          alt="img"
+        />
+        <h1>LUXURY STAYS</h1>
+        <h2>Coorg Wilderness Resort: The best of Nature & Luxury</h2>
+        <p>
+          By
+          <a href="https://www.tripoto.com/profile/riyankaroy">Anka Roy</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
